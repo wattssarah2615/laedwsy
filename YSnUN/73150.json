@@ -1,0 +1,560 @@
+最新前沿技术资讯
+
+一、入门教程｜Getting Started
+原标题：设计思考：系统限流熔断降级完整防护体系
+简介：golang 响应 body 流式返回大数据，http 流式输出数据，边生成边返回，无需在内存组装完整返回结果。
+ | 原文链接：http://book.imlgho.asia/blog/2068582.sHtMl
+
+原标题：部署实践：多实例服务部署无状态改造
+简介：golang 路径处理 filepath 包规范写法，使用 filepath 处理路径拼接分割，自动适配操作系统路径分隔符。
+ | 原文链接：http://book.imlgho.asia/blog/5272804.sHtMl
+
+原标题：排错：CI流水线构建失败，日志无明确报错
+简介：golang go 项目 CI github actions 配置，github actions 实现 go 项目 ci，自动测试、代码检查、编译打包镜像。
+ | 原文链接：http://book.imlgho.asia/blog/0745131.sHtMl
+
+原标题：架构笔记：业务系统反模式架构踩坑总结
+简介：前端防抖节流高频事件处理，封装防抖节流工具，处理滚动、输入框输入等高频触发事件减少执行次数。
+ | 原文链接：http://book.imlgho.asia/blog/9602923.sHtMl
+
+原标题：golang 系统设计分库分表本地测试调试技巧
+简介：golang 限流熔断放在代理层实践，代理层统一限流熔断，对后端服务做流量保护。
+ | 原文链接：http://book.imlgho.asia/blog/2012515.sHtMl
+
+原标题：golang es bool 查询条件组合技巧
+简介：golang race 检测器性能开销，race 检测器有性能损耗，只用于测试环境，禁止生产开启 race。
+ | 原文链接：http://book.imlgho.asia/blog/4040472.sHtMl
+
+原标题：Architecture：鉴权授权系统架构设计思路
+简介：golang bufio.Scanner 按行读取大文件，Scanner 逐行读取文本文件，处理超大日志 csv。
+ | 原文链接：http://book.imlgho.asia/blog/8502703.sHtMl
+
+原标题：golang docker 运行 etcd 本地测试
+简介：golang go get 升级降级依赖版本，go get 指定版本升级降级依赖包，管理第三方库版本。
+ | 原文链接：http://book.imlgho.asia/blog/7384749.sHtMl
+
+原标题：HTTP 状态码请求头完整梳理
+简介：golang net.Listener 包装自定义监听器，包装 Listener 做连接计数、连接拦截，扩展网络能力。
+ | 原文链接：http://book.imlgho.asia/blog/4163738.sHtMl
+
+原标题：golang 系统设计大表结构变更不停机方案
+简介：golang 内存缓存简单实现方案，Go 实现进程内简易内存缓存，本地缓存热点数据，减少远程调用。
+ | 原文链接：http://book.imlgho.asia/blog/9606815.sHtMl
+
+原标题：golang 系统设计分布式任务调度
+简介：golang 分布式锁 redis 实现，基于 Redis 实现 Go 分布式锁，解决多实例并发竞争资源问题。
+ | 原文链接：http://book.imlgho.asia/blog/4157241.sHtMl
+
+原标题：golang 数据库连接泄露排查
+简介：golang minio 私有对象存储开发，minio s3 对象存储，bucket 管理，文件上传下载权限设置。
+ | 原文链接：http://book.imlgho.asia/blog/0716805.sHtMl
+
+原标题：express 中间件开发业务实践
+简介：golang goroutine 协程基础实操，Goroutine 基础实操案例，启动协程执行任务，理解轻量级协程特性。
+ | 原文链接：http://book.imlgho.asia/blog/3040253.sHtMl
+
+原标题：异步编程 Promise 执行流程解析
+简介：业务错误码完整落地实践，落地完整业务错误码，枚举全部业务异常，统一返回，配套文档说明。
+ | 原文链接：http://book.imlgho.asia/blog/5376737.sHtMl
+
+原标题：架构复盘：数据库主从架构设计与延迟应对方案
+简介：golang gif 图片帧处理操作，解析 gif 图片帧，压缩、拆分 gif 动图，处理动图业务。
+ | 原文链接：http://book.imlgho.asia/blog/6369272.sHtMl
+
+原标题：golang 系统设计灰度发布流量切分实现
+简介：Dockerfile 编写容器打包实战，讲解 Dockerfile 指令含义，编写镜像构建脚本，将本地项目打包成可分发容器镜像。
+ | 原文链接：http://book.imlgho.asia/blog/6369485.sHtMl
+
+原标题：安全笔记：依赖包漏洞检测供应链安全
+简介：golang 消息死信处理业务逻辑，Go 实现死信队列逻辑，消费失败消息转入死信，不阻塞正常消息队列。
+ | 原文链接：http://book.imlgho.asia/blog/0606710.sHtMl
+
+原标题：golang redis 客户端业务使用
+简介：golang hertz 性能优化参数调优，hertz 连接池、缓冲区参数调优，最大化接口吞吐性能。
+ | 原文链接：http://book.imlgho.asia/blog/0203837.sHtMl
+
+原标题：golang mysql exists in 性能对比
+简介：WebSocket 聊天室实时通讯开发，基于 WebSocket 搭建简易聊天室，实现多人消息广播实时聊天效果。
+ | 原文链接：http://book.imlgho.asia/blog/6370414.sHtMl
+
+原标题：Issue：Nginxkeepalive参数不合理大量TIME_WAIT
+简介：golang 单元测试 table‑driven，表格驱动单元测试写法，批量输入多组测试用例，简化单元测试代码。
+ | 原文链接：http://book.imlgho.asia/blog/0862360.sHtMl
+
+原标题：CLI 工具进度条交互效果开发
+简介：golang init 函数合理使用边界，少用 init，优先显式调用初始化，便于控制初始化时机。
+ | 原文链接：http://book.imlgho.asia/blog/2647249.sHtMl
+
+原标题：Performance：数据库大表优化，冷热数据分离
+简介：golang 简单爬虫请求防封禁，简易 Go 爬虫实现，增加请求间隔、UA 伪装，规避被目标站点封禁 IP。
+ | 原文链接：http://book.imlgho.asia/blog/1836148.sHtMl
+
+原标题：新手向：npm/pip/maven依赖版本冲突入门排查
+简介：golang atomic 原子操作整数，atomic 加减比较交换，无锁更新整型变量，简单计数器场景。
+ | 原文链接：http://book.imlgho.asia/blog/0726038.sHtMl
+
+原标题：Architecture：安全防护架构XSSCSRFSQL注入防御
+简介：业务错误码体系设计方案，设计项目统一错误码，区分不同业务异常，标准化错误返回，便于前端识别处理。
+ | 原文链接：http://book.imlgho.asia/blog/8495637.sHtMl
+
+原标题：移动端适配 rem vw 方案对比
+简介：golang fasthttp 客户端连接池调优，fasthttp 客户端连接池配置，复用连接提升请求性能。
+ | 原文链接：http://book.imlgho.asia/blog/1936259.sHtMl
+
+原标题：Cookie 跨环境登录配置调整
+简介：CI 流水线超时时间延长配置，调大 CI 任务超时阈值，解决构建任务耗时较长被流水线强制终止。
+ | 原文链接：http://book.imlgho.asia/blog/2947252.sHtMl
+
+原标题：项目构建脚本编译打包解析
+简介：golang 性能压测 wr 工具实操指南，wr 压测工具对 Go 接口压测，观察 QPS 延迟，定位接口性能瓶颈。
+ | 原文链接：http://book.imlgho.asia/blog/3152586.sHtMl
+
+原标题：坑点：gitcherry‑pick引入不兼容代码
+简介：golang 内存持续上涨定位思路，区分内存泄漏、缓存占用、GC 参数不合理，分步定位内存持续走高。
+ | 原文链接：http://book.imlgho.asia/blog/5824929.sHtMl
+
+原标题：golang 系统设计 rest 资源命名规范汇总
+简介：golang time 定时器重置 Reset 正确用法，Timer Reset 调用前提，避免 Reset 带来逻辑错误。
+ | 原文链接：http://book.imlgho.asia/blog/6360588.sHtMl
+
+原标题：golang 系统设计读写穿透更新缓存几种方案
+简介：系统字符集统一乱码修复，统一数据库、程序、操作系统字符集，解决中文乱码显示异常问题。
+ | 原文链接：http://book.imlgho.asia/blog/7083818.sHtMl
+
+原标题：网关集成鉴权限流日志一体化
+简介：包管理器依赖冲突解决方案，分析依赖冲突产生根源，提供版本调整、锁定依赖等手段，解决项目依赖报错问题。
+ | 原文链接：http://book.imlgho.asia/blog/8225037.sHtMl
+
+原标题：Practice：实现跨机器文件同步脚本实践
+简介：golang go 程序守护进程实现思路，go 程序不做 daemon 化，依靠 systemd pm2 k8s 实现进程守护。
+ | 原文链接：http://book.imlgho.asia/blog/0735048.sHtMl
+
+原标题：golang 系统设计缓存 key 命名规范最佳实践
+简介：service‑worker 离线缓存实践，使用 ServiceWorker 实现静态资源离线缓存，弱网环境页面依然可访问。
+ | 原文链接：http://book.imlgho.asia/blog/0939070.sHtMl
+
+原标题：避坑：CookieSecure属性造成测试环境登录失败
+简介：golang 分表跨表 join 查询处理方案，分表后跨分片关联查询解决方案，业务层聚合代替数据库 join。
+ | 原文链接：http://book.imlgho.asia/blog/4157249.sHtMl
+
+原标题：避坑：批量操作未分批次，一次性内存打爆
+简介：空指针异常判空容错处理，讲解空指针产生场景，规范判空逻辑，增加容错，避免空指针直接造成程序崩溃。
+ | 原文链接：http://book.imlgho.asia/blog/4158371.sHtMl
+
+原标题：golang 系统设计 mq 故障降级业务策略
+简介：前端国际化多语言方案落地，搭建前端多语言国际化方案，切换语言，页面文本自动切换对应语种。
+ | 原文链接：http://book.imlgho.asia/blog/5262405.sHtMl
+
+原标题：golang 系统设计数据库连接池调优实践
+简介：golang k8s secret 敏感配置加载，加载 k8s secret 存储密钥密码，敏感信息不存放配置文件。
+ | 原文链接：http://book.imlgho.asia/blog/2939172.sHtMl
+
+原标题：express 中间件开发业务实践
+简介：golang 模糊测试 go fuzz 基础编写，Fuzz 测试函数，自动生成随机输入，发现代码崩溃 panic。
+ | 原文链接：http://book.imlgho.asia/blog/0713805.sHtMl
+
+原标题：实战：WebSocket断线重连完整业务处理实践
+简介：golang csv 读写批量数据处理，Go 读写 CSV 文件，批量导入导出业务数据，处理 CSV 格式解析。
+ | 原文链接：http://book.imlgho.asia/blog/7485950.sHtMl
+
+原标题：从零搭建简单Mock接口服务
+简介：依赖版本冲突兼容修复方案，定位依赖版本冲突根源，通过版本约束、替换包，解决版本不兼容运行报错。
+ | 原文链接：http://book.imlgho.asia/blog/7170149.sHtMl
+
+
+二、踩坑排错｜Troubleshooting
+原标题：安全实践：敏感信息加密存储传输完整方案
+简介：golang go 模板执行错误捕获，捕获模板执行错误，防止模板错误直接返回空白页面。
+ | 原文链接：http://book.imlgho.asia/blog/2606715.sHtMl
+
+原标题：golang elasticsearch 索引设计思路
+简介：无用对象回收抑制内存上涨，优化对象生命周期，及时释放不再使用对象，抑制内存持续不断增长。
+ | 原文链接：http://book.imlgho.asia/blog/8270215.sHtMl
+
+原标题：HTTP 状态码请求头完整梳理
+简介：golang go 网络编程 net 包基础，net 包 tcp udp socket 编程，监听接收连接，读写数据。
+ | 原文链接：http://book.imlgho.asia/blog/3725813.sHtMl
+
+原标题：golang redis 集群 hash 槽讲解
+简介：golang 信号量 semaphore 并发限制，基于 semaphore 实现并发数量控制，保护数据库、第三方接口不被打满。
+ | 原文链接：http://book.imlgho.asia/blog/6066004.sHtMl
+
+原标题：安全复盘：Redis未授权访问漏洞防护
+简介：静态站点自动部署发布方案，配置流水线，代码更新自动构建静态站点并且部署上线，简化发布。
+ | 原文链接：http://book.imlgho.asia/blog/0791372.sHtMl
+
+原标题：实战项目：Nginx限速、限流、防爬虫配置实践
+简介：golang yaml 解析配置加载实操，Go 解析 YAML 配置文件，读取配置参数，驱动业务运行。
+ | 原文链接：http://book.imlgho.asia/blog/9505696.sHtMl
+
+原标题：复盘总结：接口重构兼容旧版本改造复盘
+简介：golang 内存缓存简单实现方案，Go 实现进程内简易内存缓存，本地缓存热点数据，减少远程调用。
+ | 原文链接：http://book.imlgho.asia/blog/1939182.sHtMl
+
+原标题：golang es 分页深分页性能优化
+简介：Git 分支切换合并删除完整操作，实操分支全生命周期操作，包含切换、合并、删除，熟悉日常开发分支处理流程。
+ | 原文链接：http://book.imlgho.asia/blog/6081582.sHtMl
+
+原标题：极简方式搭建个人技术文档站点
+简介：golang gin 路由分组权限管控，Gin 路由分组，不同分组绑定鉴权中间件，实现接口权限分组管控。
+ | 原文链接：http://book.imlgho.asia/blog/1836137.sHtMl
+
+原标题：实战项目：容器健康探针配置完整实践示例
+简介：golang go‑pg postgres 客户端实操，go‑pg 操作 PostgreSQL 数据库，CRUD 关联查询业务开发。
+ | 原文链接：http://book.imlgho.asia/blog/9514849.sHtMl
+
+原标题：golang redis 过期策略内存淘汰
+简介：golang go get 升级降级依赖版本，go get 指定版本升级降级依赖包，管理第三方库版本。
+ | 原文链接：http://book.imlgho.asia/blog/6385737.sHtMl
+
+原标题：实践：数据库备份脚本自动化编写实践
+简介：golang 自定义 pprof 扩展业务指标，扩展 pprof，输出业务自定义指标，结合性能数据分析业务状态。
+ | 原文链接：http://book.imlgho.asia/blog/0718149.sHtMl
+
+原标题：前端权限路由动态生成实现
+简介：golang go 零停机升级实践要点，socket 继承，流量无损，旧连接处理完毕后旧进程退出。
+ | 原文链接：http://book.imlgho.asia/blog/0773474.sHtMl
+
+原标题：坑点：gitcherry‑pick引入不兼容代码
+简介：golang go yaml 解析自定义类型，yaml 自定义序列化，时间、特殊类型自定义解析逻辑。
+ | 原文链接：http://book.imlgho.asia/blog/4163416.sHtMl
+
+原标题：数据库排序规则统一结果一致
+简介：文件分片上传断点续传功能，实现文件分片上传，记录上传进度，支持断点续传大文件上传。
+ | 原文链接：http://book.imlgho.asia/blog/9205038.sHtMl
+
+原标题：golang redis 过期 key 监听业务
+简介：简易网关请求路由过滤模拟，模拟网关基础能力，实现请求路由转发、简单过滤，理解网关核心工作逻辑。
+ | 原文链接：http://book.imlgho.asia/blog/1585726.sHtMl
+
+原标题：golang 结构体 json 序列化坑点
+简介：golang rabbitmq 死信队列延迟消息，rabbitmq 实现死信、延迟消息，处理延时业务场景。
+ | 原文链接：http://book.imlgho.asia/blog/7495626.sHtMl
+
+原标题：golang ci 流水线单元测试集成测试
+简介：消息队列生产消费模型入门，讲解消息队列生产、存储、消费流程，理解异步解耦、削峰，掌握消息队列基础概念。
+ | 原文链接：http://book.imlgho.asia/blog/6502796.sHtMl
+
+原标题：从零搭建简单的身份登录模拟示例
+简介：HTTPS 证书过期更新操作，检测 HTTPS 证书到期，更新证书文件，恢复 HTTPS 服务正常访问。
+ | 原文链接：http://book.imlgho.asia/blog/7040182.sHtMl
+
+原标题：Debug：分页偏移量过大数据库查询性能暴跌
+简介：golang 字符编码转换 go 处理，iconv‑go 做编码转换 gbk utf8 互转，处理老旧系统 gbk 编码数据。
+ | 原文链接：http://book.imlgho.asia/blog/5925350.sHtMl
+
+原标题：前端大文件分片上传完整方案
+简介：Cookie Session 会话状态管理，讲解 Cookie 与 Session 原理，理解登录状态保存，实现服务端会话管理逻辑。
+ | 原文链接：http://book.imlgho.asia/blog/1803582.sHtMl
+
+原标题：GraphQL 接口查询优化实操
+简介：express 请求参数校验处理，接入参数校验库，校验入参，拦截非法参数，提前拦截错误请求。
+ | 原文链接：http://book.imlgho.asia/blog/8569267.sHtMl
+
+原标题：golang redis 事务 multi exec 使用
+简介：golang raw socket 底层网络报文收发，raw socket 收发原始网络报文，做网络抓包数据包处理。
+ | 原文链接：http://book.imlgho.asia/blog/2670688.sHtMl
+
+原标题：golang k8s 持久化 pv pvc 使用实操
+简介：golang go 调度器 GMP 模型通俗讲解，拆解 GMP 模型，理解 goroutine M P 调度原理，看懂调度状态。
+ | 原文链接：http://book.imlgho.asia/blog/0717269.sHtMl
+
+原标题：golang context 上下文传参讲解
+简介：本地数据库开发环境搭建指南，讲解数据库安装配置、账号权限设置、连接测试，快速搭建用于开发调试的数据库实例。
+ | 原文链接：http://book.imlgho.asia/blog/0717061.sHtMl
+
+原标题：golang kafka 消费者偏移量管理
+简介：﻿从零搭建本地开发环境完整教程，手把手完成环境配置，梳理踩坑点，帮助开发者快速搭建可用的本地开发环境，降低上手成本。
+ | 原文链接：http://book.imlgho.asia/blog/0829073.sHtMl
+
+原标题：golang 系统设计分布式锁选型对比
+简介：CPU 亲和性配置负载均衡调度，配置进程 CPU 亲和，均衡利用多核 CPU，优化程序调度性能。
+ | 原文链接：http://book.imlgho.asia/blog/3758471.sHtMl
+
+原标题：Docker 多阶段构建镜像瘦身
+简介：SDK 版本兼容线上崩溃修复，处理 SDK 版本升级之后线上崩溃，定位 API 变更，做版本兼容适配改造。
+ | 原文链接：http://book.imlgho.asia/blog/8486805.sHtMl
+
+原标题：Hands‑on：简易事件驱动架构原型开发
+简介：前端错误监控上报系统搭建，搭建前端错误监控，捕获页面 JS 错误，上报后端，快速发现线上页面 bug。
+ | 原文链接：http://book.imlgho.asia/blog/3047247.sHtMl
+
+原标题：文件读写与异常捕获代码示例
+简介：API 大版本不兼容平滑迁移，API 版本迭代不兼容旧接口，设计平滑迁移方案，逐步完成版本切换。
+ | 原文链接：http://book.imlgho.asia/blog/7603815.sHtMl
+
+原标题：实战项目：GitSubmodule管理多仓库实践
+简介：golang bytes.Buffer 字节缓冲区使用，bytes.Buffer 字节内存缓冲区，拼接字节，避免频繁内存分配。
+ | 原文链接：http://book.imlgho.asia/blog/0825161.sHtMl
+
+原标题：Architecture：文件处理服务架构大文件内存规避
+简介：golang atomic 原子操作整数，atomic 加减比较交换，无锁更新整型变量，简单计数器场景。
+ | 原文链接：http://book.imlgho.asia/blog/8596747.sHtMl
+
+原标题：K8s 镜像拉取网络故障修复
+简介：Git commit 钩子提交规范校验，配置 Git 提交钩子，提交代码自动校验提交信息格式，规范提交记录。
+ | 原文链接：http://book.imlgho.asia/blog/9629071.sHtMl
+
+原标题：开发记录：表单文件类型校验后端安全校验实践
+简介：请求重试组件退避策略实现，封装重试组件，实现指数退避策略，避免大量请求同时重试压垮下游。
+ | 原文链接：http://book.imlgho.asia/blog/9607808.sHtMl
+
+原标题：部署实践：HTTPS证书自动续期配置实践
+简介：gitignore 文件编写过滤规则，讲解 gitignore 语法，编写过滤配置，忽略缓存、编译产物、密钥文件，保持仓库整洁。
+ | 原文链接：http://book.imlgho.asia/blog/6030141.sHtMl
+
+原标题：golang 系统设计第三方接口 mock 单元测试
+简介：前端骨架屏提升页面体验，实现页面骨架屏，数据未加载完成展示占位，优化页面白屏感知体验。
+ | 原文链接：http://book.imlgho.asia/blog/9639171.sHtMl
+
+原标题：golang 系统设计熔断降级架构讲解
+简介：gRPC 服务端客户端入门示例，搭建 gRPC 服务端与调用客户端，学习 protobuf 定义，掌握 RPC 基础开发流程。
+ | 原文链接：http://book.imlgho.asia/blog/3058471.sHtMl
+
+原标题：DevOps：日志标准输出容器日志收集方案
+简介：golang go 模块迁移从 GOPATH 到 GoMod，老项目从 GOPATH 迁移 go mod，解决依赖管理混乱问题。
+ | 原文链接：http://book.imlgho.asia/blog/5818472.sHtMl
+
+原标题：部署实践：Nginx反向代理传递真实客户端IP
+简介：golang go‑zero 框架项目快速搭建，go‑zero 脚手架生成微服务项目，api rpc 服务快速开发。
+ | 原文链接：http://book.imlgho.asia/blog/5273516.sHtMl
+
+原标题：安全笔记：请求头伪造IP漏洞防护
+简介：golang sync.Pool 对象池复用对象，sync.Pool 复用临时对象，减少内存分配，降低 GC 频率提升性能。
+ | 原文链接：http://book.imlgho.asia/blog/4152407.sHtMl
+
+三、实战开发｜Practice
+原标题：接口签名校验防篡改实现
+简介：Redis 大 key 拆分集群卡顿解决，拆分 Redis 超大 Key，避免大 key 操作造成 Redis 集群卡顿阻塞。
+ | 原文链接：http://book.imlgho.asia/blog/8203628.sHtMl
+
+原标题：golang mysql 慢查询日志开启分析
+简介：nodejs 集群模式多核利用实现，使用 cluster 集群模式，充分利用服务器多核 CPU，提升服务处理能力。
+ | 原文链接：http://book.imlgho.asia/blog/7425760.sHtMl
+
+原标题：golang 系统设计缓存降级开关快速切库实现
+简介：golang io.Reader io.Writer 接口理解，io 读写接口，各类数据源统一抽象，适配 io 复制函数。
+ | 原文链接：http://book.imlgho.asia/blog/4152360.sHtMl
+
+原标题：golang 系统设计契约测试接口兼容性保障思路
+简介：golang 多协程任务池并发控制，实现协程任务池，控制并发协程数量，防止无限制创建 goroutine。
+ | 原文链接：http://book.imlgho.asia/blog/0828083.sHtMl
+
+原标题：golang minio 对象存储接口开发
+简介：前端图片懒加载性能优化，实现图片懒加载，页面可视区域才加载图片，减少页面初始网络请求。
+ | 原文链接：http://book.imlgho.asia/blog/9605738.sHtMl
+
+原标题：操作系统内核版本适配服务
+简介：golang mongodb 索引优化慢查询处理，mongodb 创建索引，分析慢查询，优化聚合查询执行性能。
+ | 原文链接：http://book.imlgho.asia/blog/2617252.sHtMl
+
+原标题：方案对比：单体、微服务、模块化单体取舍
+简介：前端国际化多语言方案落地，搭建前端多语言国际化方案，切换语言，页面文本自动切换对应语种。
+ | 原文链接：http://book.imlgho.asia/blog/9603805.sHtMl
+
+原标题：性能调优：MySQL查询性能优化实战清单
+简介：消息队列生产消费模型入门，讲解消息队列生产、存储、消费流程，理解异步解耦、削峰，掌握消息队列基础概念。
+ | 原文链接：http://book.imlgho.asia/blog/3093808.sHtMl
+
+原标题：慢查询分析索引调优数据库实战
+简介：文件编码统一随机乱码修复，统一项目全部文件读写编码，消除随机中文乱码，保证文本处理稳定。
+ | 原文链接：http://book.imlgho.asia/blog/4169401.sHtMl
+
+原标题：新手向：配置项目eslint/prettier代码格式化
+简介：项目目录结构规范化最佳实践，梳理源码、配置、静态资源目录划分，规范项目布局，提升代码可读性和可维护性。
+ | 原文链接：http://book.imlgho.asia/blog/1839069.sHtMl
+
+原标题：golang mysql json 字段查询使用
+简介：golang 压缩 zip 文件生成解压，golang 实现 zip 压缩打包，解压 zip 归档文件，处理批量文件归档。
+ | 原文链接：http://book.imlgho.asia/blog/3913605.sHtMl
+
+原标题：部署实践：服务器防火墙安全组配置实践
+简介：业务错误码完整落地实践，落地完整业务错误码，枚举全部业务异常，统一返回，配套文档说明。
+ | 原文链接：http://book.imlgho.asia/blog/2602472.sHtMl
+
+原标题：golang cpu pprof 性能分析实操
+简介：golang go toml 配置注释保留，toml 解析保留注释，修改配置后写回保留原有注释。
+ | 原文链接：http://book.imlgho.asia/blog/3136837.sHtMl
+
+原标题：接口签名校验防篡改实现
+简介：golang gin 路由分组权限管控，Gin 路由分组，不同分组绑定鉴权中间件，实现接口权限分组管控。
+ | 原文链接：http://book.imlgho.asia/blog/0727250.sHtMl
+
+原标题：Issue：操作系统最大打开文件数限制导致报错
+简介：golang sqlx 原生 SQL 代码简化，sqlx 简化原生 SQL 结果映射结构体，兼顾性能与开发效率。
+ | 原文链接：http://book.imlgho.asia/blog/9814929.sHtMl
+
+原标题：性能笔记：锁优化减少竞争提升并发吞吐
+简介：前端打包产物体积压缩优化，多手段压缩前端打包产物，移除无用代码，压缩资源，提升页面加载速度。
+ | 原文链接：http://book.imlgho.asia/blog/0737264.sHtMl
+
+原标题：golang kafka offset 提交策略
+简介：Docker 多阶段构建镜像瘦身，使用 Docker 多阶段构建，剔除编译阶段依赖，产出体积更小运行镜像。
+ | 原文链接：http://book.imlgho.asia/blog/3049364.sHtMl
+
+原标题：golang 系统设计容量评估简单方法论
+简介：Cookie 跨环境登录配置调整，调整 Cookie 域、Secure 属性，适配开发测试生产环境，修复登录失效。
+ | 原文链接：http://book.imlgho.asia/blog/2960503.sHtMl
+
+原标题：DevOps：WSL2生产环境使用风险提示
+简介：golang trace 可视化分析协程阻塞，使用 trace 网页 UI，定位协程阻塞、系统调用阻塞、锁等待。
+ | 原文链接：http://book.imlgho.asia/blog/3041326.sHtMl
+
+原标题：CLI 批量处理工具文件操作开发
+简介：golang 限流熔断放在代理层实践，代理层统一限流熔断，对后端服务做流量保护。
+ | 原文链接：http://book.imlgho.asia/blog/7471692.sHtMl
+
+原标题：Debug：并发场景下数据覆盖丢失问题定位
+简介：gitignore 文件编写过滤规则，讲解 gitignore 语法，编写过滤配置，忽略缓存、编译产物、密钥文件，保持仓库整洁。
+ | 原文链接：http://book.imlgho.asia/blog/6383416.sHtMl
+
+原标题：WSL 文件权限访问异常修复
+简介：跨库查询性能优化处理，减少跨库关联查询，做数据冗余或者中间表，规避跨库查询性能低下。
+ | 原文链接：http://book.imlgho.asia/blog/2838252.sHtMl
+
+原标题：golang 系统设计蓝绿发布滚动发布对比
+简介：nestjs 全局返回格式统一处理，Nest 全局拦截器统一包装接口返回数据，对外输出标准化响应格式。
+ | 原文链接：http://book.imlgho.asia/blog/5173526.sHtMl
+
+原标题：限流窗口绕过漏洞修复方案
+简介：golang 换行符统一处理，文本文件读写统一换行符，规避不同系统换行符带来解析异常。
+ | 原文链接：http://book.imlgho.asia/blog/7482515.sHtMl
+
+原标题：Practice：模拟磁盘满，验证服务降级表现
+简介：golang kafka 消费者组重平衡避坑，规避消费者组频繁 rebalance，减少消费抖动，保障消息消费稳定性。
+ | 原文链接：http://book.imlgho.asia/blog/8594797.sHtMl
+
+原标题：DevOps：CI构建产物缓存复用加速编译
+简介：前后端会话登录状态持久化，实现登录状态持久存储，重启服务登录状态不丢失，保障会话稳定性。
+ | 原文链接：http://book.imlgho.asia/blog/4638170.sHtMl
+
+原标题：golang 系统设计 ci 流水线安全管控思路
+简介：golang 日志级别动态调整热更新，不用重启程序动态修改日志输出级别，线上调试排查问题十分方便。
+ | 原文链接：http://book.imlgho.asia/blog/7414037.sHtMl
+
+原标题：golang 系统设计告警升级通知策略配置思路
+简介：系统时间同步定时任务偏移，同步服务器系统时间，防止时间偏移，避免定时任务执行时间错乱。
+ | 原文链接：http://book.imlgho.asia/blog/6375242.sHtMl
+
+原标题：项目语义化版本号规范管理
+简介：golang httptest 模拟外部 http 服务，httptest.NewServer 模拟第三方 http 服务，单元测试 mock 外部接口。
+ | 原文链接：http://book.imlgho.asia/blog/8595796.sHtMl
+
+原标题：简易日志收集集中管理方案
+简介：nestjs 权限守卫鉴权实现方案，使用 Nest 守卫实现接口鉴权，角色权限控制，拦截未授权接口访问。
+ | 原文链接：http://book.imlgho.asia/blog/0827372.sHtMl
+
+原标题：架构笔记：业务操作审计日志系统架构设计
+简介：限流组件计数器令牌桶模式实现，实现计数器、令牌桶两种限流算法，封装可复用限流组件。
+ | 原文链接：http://book.imlgho.asia/blog/6708912.sHtMl
+
+原标题：前后端交互跨域问题完整处理
+简介：golang nilnil interface 陷阱复现，interface 包含类型不为 nil 值为 nil，判 ==nil 返回 false 经典坑。
+ | 原文链接：http://book.imlgho.asia/blog/2467766.sHtMl
+
+原标题：Hands‑on：简易连接池原型实现理解原理
+简介：golang gorm 事务手动回滚提交，手动控制事务流程，业务异常主动回滚，保障数据操作原子性。
+ | 原文链接：http://book.imlgho.asia/blog/7114467.sHtMl
+
+原标题：Performance：避免循环查询N+1问题完整优化
+简介：SDK 版本兼容线上崩溃修复，处理 SDK 版本升级之后线上崩溃，定位 API 变更，做版本兼容适配改造。
+ | 原文链接：http://book.imlgho.asia/blog/5595838.sHtMl
+
+原标题：golang es 批量 bulk 操作性能调优
+简介：golang go 值传递引用传递理解，go 全部为值传递，指针本质拷贝指针值，理清参数传递行为。
+ | 原文链接：http://book.imlgho.asia/blog/5370606.sHtMl
+
+原标题：运维笔记：服务器定时任务运维脚本编写
+简介：提交第一个开源 PR 完整流程，Fork 项目、修改代码、提交 Pull Request，讲解 PR 规范，提升合并通过率。
+ | 原文链接：http://book.imlgho.asia/blog/1525037.sHtMl
+
+原标题：安全实践：最小权限原则数据库账号管控
+简介：golang 数据库 ORM 框架选型对比，gorm xorm sqlx 对比各 ORM 优缺点，根据业务场景选型。
+ | 原文链接：http://book.imlgho.asia/blog/4160363.sHtMl
+
+原标题：golang 系统设计锁优化减少竞争提升吞吐
+简介：golang go 符号表与调试信息取舍，区分生产环境调试符号取舍，平衡镜像体积与故障排查能力。
+ | 原文链接：http://book.imlgho.asia/blog/9635250.sHtMl
+
+原标题：golang 系统设计分表扩容数据平滑迁移思路
+简介：nodejs 集群模式多核利用实现，使用 cluster 集群模式，充分利用服务器多核 CPU，提升服务处理能力。
+ | 原文链接：http://book.imlgho.asia/blog/5746259.sHtMl
+
+原标题：快速上手调试工具定位简单代码错误
+简介：golang loki 日志收集 go 服务集成，日志输出适配 loki，标签携带 traceId，日志集中检索排查问题。
+ | 原文链接：http://book.imlgho.asia/blog/7260478.sHtMl
+
+四、架构设计｜Architecture
+原标题：nodejs 进程间通信 IPC 实操
+简介：前端工程化 webpack 打包优化，针对 webpack 项目做打包调优，分包、压缩、Tree‑Shaking，缩减包体积。
+ | 原文链接：http://book.imlgho.asia/blog/6902479.sHtMl
+
+原标题：安全笔记：第三方SDK安全风险评估要点
+简介：golang gitlab ci go 项目流水线编写，gitlab ci 流水线执行单元测试、静态检查、构建推送镜像。
+ | 原文链接：http://book.imlgho.asia/blog/5349715.sHtMl
+
+原标题：eslint prettier 代码规范落地
+简介：前端工程化 webpack 打包优化，针对 webpack 项目做打包调优，分包、压缩、Tree‑Shaking，缩减包体积。
+ | 原文链接：http://book.imlgho.asia/blog/9604037.sHtMl
+
+原标题：死信队列处理消息阻塞业务
+简介：golang http 服务性能优化调参，调优 Go HTTP 服务参数，调整连接池，提升服务并发吞吐能力。
+ | 原文链接：http://book.imlgho.asia/blog/0313816.sHtMl
+
+原标题：Practice：模拟热点key，验证缓存防护策略
+简介：golang go 依赖漏洞检测 govulncheck，govulncheck 扫描依赖安全漏洞，发现项目供应链风险。
+ | 原文链接：http://book.imlgho.asia/blog/2938061.sHtMl
+
+原标题：版本升级服务启动失败处理
+简介：操作系统内核版本适配服务，针对服务运行要求，适配操作系统内核版本，规避内核兼容 bug。
+ | 原文链接：http://book.imlgho.asia/blog/1825849.sHtMl
+
+原标题：程序性能指标 CPU 内存监控
+简介：nodejs redis 缓存业务实战，Node 对接 Redis 实现业务缓存，缓存热点查询结果，减轻数据库压力。
+ | 原文链接：http://book.imlgho.asia/blog/8597060.sHtMl
+
+原标题：golang mysql 悲观锁乐观锁实现
+简介：golang init 函数合理使用边界，少用 init，优先显式调用初始化，便于控制初始化时机。
+ | 原文链接：http://book.imlgho.asia/blog/3080294.sHtMl
+
+原标题：golang 系统设计密钥轮换安全实践思路
+简介：golang gorm 事务手动回滚提交，手动控制事务流程，业务异常主动回滚，保障数据操作原子性。
+ | 原文链接：http://book.imlgho.asia/blog/5292427.sHtMl
+
+原标题：golang 系统设计压测工具 vegeta 使用示例
+简介：golang benchmark 参数‑bench‑mem 统计内存分配，benchmark 开启内存统计，观察内存分配次数大小。
+ | 原文链接：http://book.imlgho.asia/blog/7495849.sHtMl
+
+原标题：设计思考：消息队列重复消费架构层防御手段
+简介：WebSocket 断线重连稳定优化，增加 WebSocket 断线自动重连逻辑，处理网络抖动，维持长连接稳定。
+ | 原文链接：http://book.imlgho.asia/blog/5979574.sHtMl
+
+原标题：Practice：手写简易限流组件，计数器、令牌桶实现
+简介：golang net.Listener 包装自定义监听器，包装 Listener 做连接计数、连接拦截，扩展网络能力。
+ | 原文链接：http://book.imlgho.asia/blog/9690170.sHtMl
+
+原标题：golang kafka 重试机制配置实操
+简介：golang go 容器 heap 堆实现优先队列，实现 heap 接口，构建优先队列，任务优先级调度。
+ | 原文链接：http://book.imlgho.asia/blog/4867948.sHtMl
+
+原标题：golang kafka 消费者组原理讲解
+简介：golang go panic 合理使用边界，panic 只用于不可恢复程序错误，业务逻辑禁止直接 panic。
+ | 原文链接：http://book.imlgho.asia/blog/1949059.sHtMl
+
+原标题：golang 工具函数库封装思路
+简介：golang 配置文件多格式兼容加载，同时支持 yaml toml json 多种格式配置文件，灵活适配不同部署环境。
+ | 原文链接：http://book.imlgho.asia/blog/2925142.sHtMl
+
+原标题：Practice：实现IP黑名单拦截中间件实践
+简介：nodejs 中间件模式原理剖析，拆解 Node 中间件设计模式，理解请求逐层处理流转的底层原理。
+ | 原文链接：http://book.imlgho.asia/blog/9595819.sHtMl
+
+原标题：Performance：避免循环查询N+1问题完整优化
+简介：golang 配置文件热加载监听变更，监听配置文件改动，自动重新加载配置，业务即时生效无需重启。
+ | 原文链接：http://book.imlgho.asia/blog/3758171.sHtMl
+
+原标题：golang redis 计数器防超卖示例
+简介：golang json 解析未知动态 json 结构，解析到 map [string] any 处理未知 json，动态读取字段。
+ | 原文链接：http://book.imlgho.asia/blog/7049282.sHtMl
+
+?
