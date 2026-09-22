@@ -1,0 +1,560 @@
+最新前沿技术资讯
+
+一、入门教程｜Getting Started
+原标题：golang 系统设计第三方接口 mock 单元测试
+简介：golang tar gz 压缩解压处理，tar.gz 归档压缩解压，服务端日志备份、文件打包场景使用。
+ | 原文链接：http://book.ygcofo.asia/blog/0647151.sHtMl
+
+原标题：OpenSource：开源项目风险评估依赖安全检查
+简介：golang gorm ORM 数据库操作，GORM 实操数据库 CRUD，模型定义，关联查询，简化 Go 数据库开发。
+ | 原文链接：http://book.ygcofo.asia/blog/4151181.sHtMl
+
+原标题：零基础理解JSON、XML数据格式处理
+简介：golang errors.Is errors.As 错误判断，判断是否为指定错误类型，提取自定义错误信息，错误处理进阶。
+ | 原文链接：http://book.ygcofo.asia/blog/0483928.sHtMl
+
+原标题：安全复盘：日志打印敏感信息泄露治理
+简介：手写简易 MQ 理解消息存储消费，手写极简消息队列 Demo，理解消息存储、投递、消费完整流程。
+ | 原文链接：http://book.ygcofo.asia/blog/8399147.sHtMl
+
+原标题：开发复盘：超时参数统一治理线上服务实践
+简介：Fork 开源项目同步上游代码，Fork 开源仓库之后，配置上游源，同步官方最新代码，保持代码版本对齐。
+ | 原文链接：http://book.ygcofo.asia/blog/3780250.sHtMl
+
+原标题：golang 系统设计压测数据构造方法实现
+简介：前端国际化多语言方案落地，搭建前端多语言国际化方案，切换语言，页面文本自动切换对应语种。
+ | 原文链接：http://book.ygcofo.asia/blog/1487817.sHtMl
+
+原标题：echarts 大数据渲染性能调优
+简介：DNS 解析异常第三方调用故障，排查 DNS 解析故障，修复域名解析，恢复第三方接口网络调用。
+ | 原文链接：http://book.ygcofo.asia/blog/2677886.sHtMl
+
+原标题：golang 系统设计日志检索排查线上问题实操技巧
+简介：golang go 输入数据校验防御，所有外部入参严格校验长度格式，防止恶意输入造成业务异常。
+ | 原文链接：http://book.ygcofo.asia/blog/7810020.sHtMl
+
+原标题：golang 系统设计测试环境预发环境生产环境隔离
+简介：Docker Compose 一键搭建本地栈，使用 Compose 编排多个容器，一键拉起全套开发依赖服务。
+ | 原文链接：http://book.ygcofo.asia/blog/7225656.sHtMl
+
+原标题：nodejs 集成测试业务流程编写
+简介：golang udp 服务端客户端开发示例，golang 实现 UDP 服务收发数据包，实现 udp 协议通信程序。
+ | 原文链接：http://book.ygcofo.asia/blog/0354768.sHtMl
+
+原标题：Architecture：静态资源分发CDN整体架构思路
+简介：golang alertmanager 告警配置实践，alertmanager 配置告警路由，告警发送邮件钉钉，异常及时通知运维。
+ | 原文链接：http://book.ygcofo.asia/blog/8467924.sHtMl
+
+原标题：golang mysql 主从同步延迟兼容
+简介：golang strings 常用函数业务实战，字符串分割替换包含判断前缀后缀，掌握 strings 包高频函数。
+ | 原文链接：http://book.ygcofo.asia/blog/2823583.sHtMl
+
+原标题：golang 数据库批量更新性能优化
+简介：Spring 事务传播机制配置生效，理解事务传播行为，正确配置，修复事务不生效、事务失效的业务 bug。
+ | 原文链接：http://book.ygcofo.asia/blog/1827241.sHtMl
+
+原标题：优化实践：业务定时任务错开高峰避免资源争抢
+简介：nodejs 接口限流防刷代码实现，Node 层实现接口限流，限制 IP 访问频次，防护接口被恶意高频调用。
+ | 原文链接：http://book.ygcofo.asia/blog/2938080.sHtMl
+
+原标题：前端打包产物体积压缩优化
+简介：golang html 模板渲染简单示例，Go HTML 模板渲染，服务端渲染页面，填充数据输出 HTML 页面。
+ | 原文链接：http://book.ygcofo.asia/blog/5899001.sHtMl
+
+原标题：golang 系统设计内部 rpc 接口设计原则梳理
+简介：golang 环境变量读取与类型转换，读取系统环境变量，做类型转换默认值处理，适配多环境部署。
+ | 原文链接：http://book.ygcofo.asia/blog/2827018.sHtMl
+
+原标题：实战：接口压力测试实操，定位系统瓶颈
+简介：golang go‑pg postgres 客户端实操，go‑pg 操作 PostgreSQL 数据库，CRUD 关联查询业务开发。
+ | 原文链接：http://book.ygcofo.asia/blog/9354576.sHtMl
+
+原标题：Debug：表单自动转义特殊字符业务逻辑出错
+简介：golang go proxy 私有代理配置，配置 go proxy 私有代理，加速依赖下载，内网环境构建项目。
+ | 原文链接：http://book.ygcofo.asia/blog/0252336.sHtMl
+
+原标题：记一次字符集编码不一致乱码问题全排查
+简介：golang go list 双向链表使用，container/list 双向链表，频繁增删节点业务场景使用。
+ | 原文链接：http://book.ygcofo.asia/blog/5946925.sHtMl
+
+原标题：Docker 容器入门镜像实操教程
+简介：golang jwt 令牌刷新逻辑实现，实现 JWT 双令牌机制，access 短期有效 refresh 刷新令牌，实现无感续期登录。
+ | 原文链接：http://book.ygcofo.asia/blog/2245231.sHtMl
+
+原标题：nodejs 跨域中间件配置细节
+简介：数据库读写分离性能优化，讲解读写分离原理，主库写入从库查询，分担数据库查询压力，提升查询性能。
+ | 原文链接：http://book.ygcofo.asia/blog/7123421.sHtMl
+
+原标题：入门实践：简单重试逻辑封装实现
+简介：golang grpc 客户端流上传数据，客户端流式请求，客户端分批上传数据到服务端，适合大文件传输。
+ | 原文链接：http://book.ygcofo.asia/blog/7099597.sHtMl
+
+原标题：新手教程：Git撤销错误提交的几种常用方式
+简介：golang go time 时区数据库内置，go 内置时区数据库，不用系统时区文件，容器时区不依赖系统。
+ | 原文链接：http://book.ygcofo.asia/blog/0489255.sHtMl
+
+原标题：排错：前端打包chunk过大浏览器加载缓慢
+简介：系统文件描述符上限调大，调高操作系统文件描述符上限，解决高并发场景打开文件报错。
+ | 原文链接：http://book.ygcofo.asia/blog/8270369.sHtMl
+
+原标题：动态定时任务业务调度实现
+简介：Git 误删提交代码恢复找回，使用 Git reflog 工具找回被误删除提交记录，恢复误删除代码。
+ | 原文链接：http://book.ygcofo.asia/blog/3200814.sHtMl
+
+原标题：接口限流逻辑简单模拟实现
+简介：golang 读写分离 gorm 实现主从切换，gorm 配置主库写入从库查询，读写分离分担数据库查询压力。
+ | 原文链接：http://book.ygcofo.asia/blog/9807396.sHtMl
+
+原标题：实践：API版本控制多种策略落地对比实践
+简介：代码模块化组件化拆分思路，讲解代码拆分原则，将大业务拆分为独立模块组件，提升代码复用与维护能力。
+ | 原文链接：http://book.ygcofo.asia/blog/6810788.sHtMl
+
+原标题：golang 系统设计逻辑删除物理删除选型对比
+简介：golang icmp ping 程序实现，go 实现 ping 工具发送 icmp 报文，检测网络连通性。
+ | 原文链接：http://book.ygcofo.asia/blog/5835705.sHtMl
+
+原标题：Performance：数据库join优化，大表join规避
+简介：react hooks 常见陷阱避坑指南，梳理 React Hooks 高频踩坑点，依赖数组、闭包陷阱，写出稳定组件。
+ | 原文链接：http://book.ygcofo.asia/blog/1502460.sHtMl
+
+原标题：设计思考：分布式ID系统架构选型对比
+简介：golang channel 缓冲无缓冲区别，缓冲 channel 与无缓冲 channel，底层行为差异业务选型参考。
+ | 原文链接：http://book.ygcofo.asia/blog/7405037.sHtMl
+
+原标题：Mock 接口服务快速搭建实操
+简介：golang ctx 关闭之后资源释放，context 取消后，监听 Done ()，释放 goroutine 网络 IO 资源。
+ | 原文链接：http://book.ygcofo.asia/blog/5168281.sHtMl
+
+原标题：坑点：环境配置被打包进镜像引发安全泄露
+简介：golang base64 编码解码实操，Go Base64 编码解码示例，处理业务场景 Base64 格式数据转换。
+ | 原文链接：http://book.ygcofo.asia/blog/5371292.sHtMl
+
+原标题：Architecture：灰度、蓝绿、金丝雀发布架构对比
+简介：编译打包产物依赖分析解读，分析打包之后产物组成，理清运行依赖文件，排查打包后缺失文件问题。
+ | 原文链接：http://book.ygcofo.asia/blog/6372425.sHtMl
+
+原标题：golang 系统设计回调签名校验防伪造实现
+简介：golang time duration 解析时间字符串，time.ParseDuration 解析 1h30m 时间间隔字符串。
+ | 原文链接：http://book.ygcofo.asia/blog/2168059.sHtMl
+
+原标题：Security：限流防爬虫防恶意攻击防护体系
+简介：安全组端口开放网络访问，调整服务器安全组规则，开放业务需要端口，恢复外部网络访问服务。
+ | 原文链接：http://book.ygcofo.asia/blog/5371695.sHtMl
+
+原标题：golang 系统设计压测数据构造方法实现
+简介：死信队列处理消息阻塞业务，配置死信队列，处理消费失败消息，避免失败消息阻塞整个队列业务。
+ | 原文链接：http://book.ygcofo.asia/blog/0612817.sHtMl
+
+原标题：优化实践：业务定时任务错开高峰避免资源争抢
+简介：golang go ring 环形容器循环队列，ring 环形链表实现循环队列，环形缓冲区业务场景。
+ | 原文链接：http://book.ygcofo.asia/blog/6369595.sHtMl
+
+原标题：项目目录结构规范化最佳实践
+简介：golang go cover 覆盖率报告生成，go test‑cover 生成测试覆盖率，html 可视化查看未覆盖代码行。
+ | 原文链接：http://book.ygcofo.asia/blog/8333467.sHtMl
+
+原标题：项目实践：灰度发布简易方案落地实践
+简介：golang 环境变量读取与类型转换，读取系统环境变量，做类型转换默认值处理，适配多环境部署。
+ | 原文链接：http://book.ygcofo.asia/blog/2367865.sHtMl
+
+原标题：优化实践：业务定时任务错开高峰避免资源争抢
+简介：golang e2e 端到端测试 go 接口，编写 e2e 测试，完整模拟用户请求，校验整套业务链路正确性。
+ | 原文链接：http://book.ygcofo.asia/blog/4798779.sHtMl
+
+
+二、踩坑排错｜Troubleshooting
+原标题：DevOps：多环境镜像标签版本管理规范
+简介：golang go 模板缓存预编译模板，预编译 html 模板，程序启动加载，避免每次请求解析模板损耗性能。
+ | 原文链接：http://book.ygcofo.asia/blog/8235551.sHtMl
+
+原标题：golang kafka 消费者偏移量管理
+简介：golang 优雅处理 http 重定向逻辑，自定义控制 http 重定向跳转次数，防止无限重定向死循环。
+ | 原文链接：http://book.ygcofo.asia/blog/5922435.sHtMl
+
+原标题：零基础学习简单正则表达式实战案例
+简介：浏览器本地存储安全使用技巧，讲解 localStorage、sessionStorage 使用边界，规避 XSS 泄露存储数据。
+ | 原文链接：http://book.ygcofo.asia/blog/2969462.sHtMl
+
+原标题：golang redis 缓存预热实现思路
+简介：nodejs 消息队列消费服务开发，Node 开发消息队列消费端，监听队列消息执行业务逻辑，异步解耦业务。
+ | 原文链接：http://book.ygcofo.asia/blog/4869473.sHtMl
+
+原标题：golang redis 锁超时业务处理
+简介：golang 定时任务 cron 使用指南，Go 使用 Cron 库实现定时任务，配置 corn 表达式调度业务任务。
+ | 原文链接：http://book.ygcofo.asia/blog/6382694.sHtMl
+
+原标题：线程调度优化减少上下文切换
+简介：TLS 版本兼容 HTTPS 握手失败，兼容老旧 TLS 协议版本，修复部分客户端 HTTPS 握手失败无法访问。
+ | 原文链接：http://book.ygcofo.asia/blog/5261625.sHtMl
+
+原标题：零基础理解前后端简单交互流程
+简介：golang go 泛型约束与类型集合，泛型 type set 约束，限制泛型支持类型，写出安全泛型代码。
+ | 原文链接：http://book.ygcofo.asia/blog/4169472.sHtMl
+
+原标题：实践：灰度流量切分简易实现方案
+简介：Docker Compose 一键搭建本地栈，使用 Compose 编排多个容器，一键拉起全套开发依赖服务。
+ | 原文链接：http://book.ygcofo.asia/blog/1896708.sHtMl
+
+原标题：golang mysql exists in 性能对比
+简介：golang 重试退避机制代码实现，Go 实现请求重试与指数退避，处理临时故障，提升调用稳定性。
+ | 原文链接：http://book.ygcofo.asia/blog/2949104.sHtMl
+
+原标题：Nginx 丢失请求头配置修正
+简介：静态网页 HTML CSS 快速入门实战，通过简单页面案例讲解标签、样式布局，从零编写页面，理解网页基础渲染原理。
+ | 原文链接：http://book.ygcofo.asia/blog/1647248.sHtMl
+
+原标题：灰度发布策略服务平滑升级
+简介：golang ip 限流黑名单实现方案，基于 IP 做限流与黑名单，拦截恶意 IP 访问，保护接口服务。
+ | 原文链接：http://book.ygcofo.asia/blog/1526149.sHtMl
+
+原标题：消息队列重复消费业务处理
+简介：nodejs redis 缓存业务实战，Node 对接 Redis 实现业务缓存，缓存热点查询结果，减轻数据库压力。
+ | 原文链接：http://book.ygcofo.asia/blog/9370104.sHtMl
+
+原标题：golang mysql json 字段查询使用
+简介：限流组件计数器令牌桶模式实现，实现计数器、令牌桶两种限流算法，封装可复用限流组件。
+ | 原文链接：http://book.ygcofo.asia/blog/1903689.sHtMl
+
+原标题：安全复盘：Redis未授权访问漏洞防护
+简介：golang socket 文件描述符继承重启，父进程传递 listener fd 给子进程，实现 go 程序零停机热重启。
+ | 原文链接：http://book.ygcofo.asia/blog/5935762.sHtMl
+
+原标题：golang 大文件读取内存优化
+简介：golang go 包循环导入报错解决，A 导入 B B 导入 A，循环导入报错，重构代码拆分包消除循环依赖。
+ | 原文链接：http://book.ygcofo.asia/blog/3068292.sHtMl
+
+原标题：golang 系统设计字段命名类型选择最佳实践
+简介：跨平台换行符统一异常修复，统一代码文件换行符，解决不同操作系统换行符不一致带来脚本执行异常。
+ | 原文链接：http://book.ygcofo.asia/blog/5162473.sHtMl
+
+原标题：golang 系统设计开源项目 issue pr 模板编写
+简介：golang 限流熔断放在代理层实践，代理层统一限流熔断，对后端服务做流量保护。
+ | 原文链接：http://book.ygcofo.asia/blog/3716852.sHtMl
+
+原标题：踩坑记录：端口被占用导致服务启动失败
+简介：golang redis pipeline 与 txpipeline 区别，区分普通管道与事务管道，根据业务场景选择合适批量执行方案。
+ | 原文链接：http://book.ygcofo.asia/blog/1938249.sHtMl
+
+原标题：golang viper 配置热更新实操
+简介：Git 分支切换合并删除完整操作，实操分支全生命周期操作，包含切换、合并、删除，熟悉日常开发分支处理流程。
+ | 原文链接：http://book.ygcofo.asia/blog/4261315.sHtMl
+
+原标题：vue pinia 状态管理实战教程
+简介：前端虚拟列表大数据渲染优化，实现虚拟滚动列表，只渲染可视区域 DOM，上万条数据页面流畅渲染。
+ | 原文链接：http://book.ygcofo.asia/blog/3050240.sHtMl
+
+原标题：golang 系统设计采样策略降低链路存储开销
+简介：golang 单元测试 mock http 请求，mock HTTP 外部接口，单元测试不依赖外部网络，保证用例稳定运行。
+ | 原文链接：http://book.ygcofo.asia/blog/4483684.sHtMl
+
+原标题：golang 静态文件服务搭建教程
+简介：前端错误监控上报系统搭建，搭建前端错误监控，捕获页面 JS 错误，上报后端，快速发现线上页面 bug。
+ | 原文链接：http://book.ygcofo.asia/blog/3890912.sHtMl
+
+原标题：golang 系统设计敏感数据加密存储方案
+简介：golang sync/atomic 原子操作使用注意，理解原子操作内存顺序，规避原子操作错误使用带来 bug。
+ | 原文链接：http://book.ygcofo.asia/blog/5934246.sHtMl
+
+原标题：部署实践：DockerCompose管理多服务环境
+简介：多线程线程安全脏数据规避，梳理多线程共享变量，做好同步控制，避免并发修改产生脏数据。
+ | 原文链接：http://book.ygcofo.asia/blog/8811897.sHtMl
+
+原标题：Hands‑on：本地模拟分布式锁失效场景测试
+简介：Dockerfile 编写容器打包实战，讲解 Dockerfile 指令含义，编写镜像构建脚本，将本地项目打包成可分发容器镜像。
+ | 原文链接：http://book.ygcofo.asia/blog/9261314.sHtMl
+
+原标题：golang 批量任务协程控制防雪崩
+简介：golang go test 单元测试命令参数详解，gotest 参数覆盖率，指定测试用例，跳过测试，单元测试命令实操。
+ | 原文链接：http://book.ygcofo.asia/blog/5305693.sHtMl
+
+原标题：项目实践：多环境配置管理组件设计与实现
+简介：golang 跨域处理中间件编写，Gin 跨域中间件开发，处理预检 OPTIONS 请求，解决浏览器跨域报错。
+ | 原文链接：http://book.ygcofo.asia/blog/5901215.sHtMl
+
+原标题：项目实践：实现统一接口返回封装与全局异常处理
+简介：Cookie Session 会话状态管理，讲解 Cookie 与 Session 原理，理解登录状态保存，实现服务端会话管理逻辑。
+ | 原文链接：http://book.ygcofo.asia/blog/5568981.sHtMl
+
+原标题：调优方案：Docker容器内核参数性能调优
+简介：nodejs 中间件模式原理剖析，拆解 Node 中间件设计模式，理解请求逐层处理流转的底层原理。
+ | 原文链接：http://book.ygcofo.asia/blog/1587992.sHtMl
+
+原标题：从零学习简单分布式ID生成思路
+简介：跨域偶现失败配置修复，解决跨域问题时而复现时而正常，定位配置漏配、请求头异常等隐性问题。
+ | 原文链接：http://book.ygcofo.asia/blog/6709001.sHtMl
+
+原标题：golang docker 部署 mongodb 开发环境
+简介：golang 简单爬虫请求防封禁，简易 Go 爬虫实现，增加请求间隔、UA 伪装，规避被目标站点封禁 IP。
+ | 原文链接：http://book.ygcofo.asia/blog/3079583.sHtMl
+
+原标题：新手指南：虚拟机WSL开发环境入门配置
+简介：nodejs redis 缓存业务实战，Node 对接 Redis 实现业务缓存，缓存热点查询结果，减轻数据库压力。
+ | 原文链接：http://book.ygcofo.asia/blog/9605950.sHtMl
+
+原标题：golang 系统设计技术文档维护更新最佳实践
+简介：golang go regexp 正则预编译，regexp.MustCompile 预编译正则，不要循环内部编译正则，节省 CPU。
+ | 原文链接：http://book.ygcofo.asia/blog/1849152.sHtMl
+
+原标题：部署复盘：容器OOM问题完整排查流程
+简介：Docker Compose 一键搭建本地栈，使用 Compose 编排多个容器，一键拉起全套开发依赖服务。
+ | 原文链接：http://book.ygcofo.asia/blog/1590704.sHtMl
+
+原标题：实战：搭建日志收集分析简易完整演示环境
+简介：批量数据处理脚本编写技巧，编写脚本批量处理大量业务数据，循环处理、分批执行，提升数据处理效率。
+ | 原文链接：http://book.ygcofo.asia/blog/4382604.sHtMl
+
+原标题：项目实践：MySQL读写分离本地模拟实践
+简介：golang 滑动窗口限流算法 go 实现，滑动窗口限流，解决固定窗口临界流量突增漏洞，限流更精准。
+ | 原文链接：http://book.ygcofo.asia/blog/9605720.sHtMl
+
+原标题：安全笔记：GitHubAction密钥安全管理
+简介：golang excel 生成导出高性能方案，excelize 流式生成 excel，百万行数据导出，规避内存溢出。
+ | 原文链接：http://book.ygcofo.asia/blog/1827071.sHtMl
+
+原标题：golang 系统设计 id 生成器选型对比
+简介：golang http 代理客户端配置，Go HTTP Client 配置代理，通过代理服务器发起网络请求。
+ | 原文链接：http://book.ygcofo.asia/blog/8301715.sHtMl
+
+原标题：记一次第三方回调IP变动未更新防火墙拦截
+简介：golang go proxy 私有代理配置，配置 go proxy 私有代理，加速依赖下载，内网环境构建项目。
+ | 原文链接：http://book.ygcofo.asia/blog/2968459.sHtMl
+
+原标题：零基础理解内存溢出基础现象与表现
+简介：golang 信号捕获程序退出处理，Go 捕获操作系统信号，做资源回收，控制程序退出流程。
+ | 原文链接：http://book.ygcofo.asia/blog/2645142.sHtMl
+
+三、实战开发｜Practice
+原标题：golang 系统设计 webhook 回调处理架构
+简介：golang go 整洁架构代码组织实践，整洁架构依赖向内，解耦业务逻辑与外部基础设施。
+ | 原文链接：http://book.ygcofo.asia/blog/9505861.sHtMl
+
+原标题：golang 文件上传下载接口开发
+简介：主干开发团队代码合并策略，讲解主干开发模式，团队代码合并流程，适合高频迭代的团队协作模式。
+ | 原文链接：http://book.ygcofo.asia/blog/3070589.sHtMl
+
+原标题：golang goroutine 池任务调度
+简介：golang 配置中心 apollo go 客户端，apollo go sdk 读取配置，配置变更自动热更新无需重启服务。
+ | 原文链接：http://book.ygcofo.asia/blog/2950403.sHtMl
+
+原标题：Practice：实现文件监控自动重启开发服务工具
+简介：golang testify mock 模拟接口，mock 接口生成 mock 对象，单元测试模拟外部依赖行为。
+ | 原文链接：http://book.ygcofo.asia/blog/9607958.sHtMl
+
+原标题：业务接口幂等完整落地案例
+简介：nodejs 日志轮转生产环境配置，配置 Node 日志轮转切割，防止日志文件无限变大，适配生产环境。
+ | 原文链接：http://book.ygcofo.asia/blog/8592817.sHtMl
+
+原标题：开发代理服务网络限制解决
+简介：golang go 零停机升级实践要点，socket 继承，流量无损，旧连接处理完毕后旧进程退出。
+ | 原文链接：http://book.ygcofo.asia/blog/9616938.sHtMl
+
+原标题：golang 静态编译缩小镜像体积
+简介：容器软链接文件权限修复，修复容器内软链接文件权限，让程序能够正常读取软链接指向的文件。
+ | 原文链接：http://book.ygcofo.asia/blog/8712526.sHtMl
+
+原标题：快速入门容器基础概念，理解镜像与容器
+简介：golang gorm 索引设置与优化技巧，定义数据库索引，理解索引生效条件，避免索引失效慢查询。
+ | 原文链接：http://book.ygcofo.asia/blog/6369514.sHtMl
+
+原标题：安全复盘：Nginx配置不当带来的安全风险
+简介：golang 单元测试 mock http 请求，mock HTTP 外部接口，单元测试不依赖外部网络，保证用例稳定运行。
+ | 原文链接：http://book.ygcofo.asia/blog/2935149.sHtMl
+
+原标题：Hands‑on：简易连接池原型实现理解原理
+简介：包管理器依赖缓存清理，清理本地依赖缓存，解决缓存旧包引发问题，拉取最新版本依赖包。
+ | 原文链接：http://book.ygcofo.asia/blog/8496960.sHtMl
+
+原标题：容器内存扩容 OOM 被杀死修复
+简介：golang ip 限流黑名单实现方案，基于 IP 做限流与黑名单，拦截恶意 IP 访问，保护接口服务。
+ | 原文链接：http://book.ygcofo.asia/blog/0757572.sHtMl
+
+原标题：golang 系统设计敏感数据加密存储方案
+简介：Spring 事务传播机制配置生效，理解事务传播行为，正确配置，修复事务不生效、事务失效的业务 bug。
+ | 原文链接：http://book.ygcofo.asia/blog/9602816.sHtMl
+
+原标题：WebSocket 聊天室实时通讯开发
+简介：golang 数据库连接泄露排查，定位 Go 数据库连接泄露，连接没有归还池，导致连接耗尽报错。
+ | 原文链接：http://book.ygcofo.asia/blog/0827059.sHtMl
+
+原标题：实战：gRPC服务编写客户端服务端完整demo
+简介：vue pinia 状态管理实战教程，Pinia 完整实战示例，实现状态定义修改，模块拆分替代 Vuex。
+ | 原文链接：http://book.ygcofo.asia/blog/8483696.sHtMl
+
+原标题：golang yaml 解析配置加载实操
+简介：golang go mod graph 可视化依赖图，可视化 go 依赖关系，直观看到包之间依赖，定位冲突。
+ | 原文链接：http://book.ygcofo.asia/blog/0738182.sHtMl
+
+原标题：安全笔记：CORS跨域配置错误安全风险
+简介：golang 制品镜像版本号规范管理，镜像版本号结合 git commit，明确每个镜像对应代码版本便于追溯。
+ | 原文链接：http://book.ygcofo.asia/blog/2934860.sHtMl
+
+原标题：移动端适配 rem vw 方案对比
+简介：golang go 线上故障排查完整流程，CPU 高、内存上涨、接口超时、goroutine 泄露一套排查处理流程。
+ | 原文链接：http://book.ygcofo.asia/blog/2374467.sHtMl
+
+原标题：实践：大文件分片上传后端完整实现思路
+简介：大文件导出内存溢出防护，流式处理大文件导出，边读边写，不把全部数据加载内存，规避 OOM。
+ | 原文链接：http://book.ygcofo.asia/blog/6012267.sHtMl
+
+原标题：浮点计算精度错误处理方案
+简介：Docker 容器时区错误修复方案，修复 Docker 容器内部时区偏差，解决容器内时间不对引发业务逻辑异常。
+ | 原文链接：http://book.ygcofo.asia/blog/8234378.sHtMl
+
+原标题：HTTPS 证书过期更新操作
+简介：nestjs 拦截器过滤器管道实战，实操 Nest 拦截器、异常过滤器、管道校验，处理请求与响应统一逻辑。
+ | 原文链接：http://book.ygcofo.asia/blog/4790090.sHtMl
+
+原标题：golang 系统设计滑动窗口限流代码示例
+简介：golang interface 接口使用避坑，interface 判 nil 坑点，理解接口底层结构，避免判空逻辑失效。
+ | 原文链接：http://book.ygcofo.asia/blog/6012202.sHtMl
+
+原标题：调优方案：消息队列消费速度优化处理堆积
+简介：golang aes cbc gcm 模式加密对比，AES‑CBC AES‑GCM 模式加密解密，理解两种模式差异选型。
+ | 原文链接：http://book.ygcofo.asia/blog/4283636.sHtMl
+
+原标题：实战项目：数据导出Excel百万级大数据导出方案
+简介：golang base64 大文件流式编解码，大文件流式 base64 转换，不用一次性加载全部文件进入内存。
+ | 原文链接：http://book.ygcofo.asia/blog/1828133.sHtMl
+
+原标题：入门实践：简易进度条CLI工具实现demo
+简介：golang go 泛型约束与类型集合，泛型 type set 约束，限制泛型支持类型，写出安全泛型代码。
+ | 原文链接：http://book.ygcofo.asia/blog/9657950.sHtMl
+
+原标题：从零搭建本地开发环境完整教程
+简介：golang go 测试 t.Run 子测试分组，t.Run 实现子测试，分组执行用例，输出分组测试结果。
+ | 原文链接：http://book.ygcofo.asia/blog/6160515.sHtMl
+
+原标题：复盘总结：分布式系统常见坑点汇总清单
+简介：golang jwt 鉴权中间件完整示例，Gin JWT 鉴权中间件，令牌校验，解析用户信息，接口鉴权拦截。
+ | 原文链接：http://book.ygcofo.asia/blog/5291717.sHtMl
+
+原标题：入门实践：简易进度条CLI工具实现demo
+简介：静态网页 HTML CSS 快速入门实战，通过简单页面案例讲解标签、样式布局，从零编写页面，理解网页基础渲染原理。
+ | 原文链接：http://book.ygcofo.asia/blog/9523615.sHtMl
+
+原标题：golang 系统设计故障应急响应完整流程梳理
+简介：短信服务封装失败自动重试，封装短信发送组件，处理发送失败自动重试，兼容多短信服务商。
+ | 原文链接：http://book.ygcofo.asia/blog/2713791.sHtMl
+
+原标题：Hands‑on：简易导出PDF后端生成demo实践
+简介：golang go 比较运算符可比较类型，哪些类型可以直接 == 比较，map slice 函数不可直接比较。
+ | 原文链接：http://book.ygcofo.asia/blog/4935883.sHtMl
+
+原标题：golang 系统设计灰度发布流量切分实现
+简介：golang 消息队列 kafka 消费开发，Go 开发 Kafka 消费程序，消费消息执行业务，理解 Kafka 消费逻辑。
+ | 原文链接：http://book.ygcofo.asia/blog/5813613.sHtMl
+
+原标题：golang 跨域处理中间件编写
+简介：多套环境灵活切换配置方案，实现配置动态切换，通过环境变量、配置文件，快速切换开发测试生产环境。
+ | 原文链接：http://book.ygcofo.asia/blog/2939282.sHtMl
+
+原标题：线程池拒绝策略任务丢失防护
+简介：项目脚手架模板生成工具，搭建项目模板脚手架，一键生成标准化项目骨架，减少重复初始化工作。
+ | 原文链接：http://book.ygcofo.asia/blog/0616958.sHtMl
+
+原标题：golang goroutine 池任务调度
+简介：golang 数据库连接耗尽排查思路，监控连接池状态，定位连接未归还，解决连接耗尽报错。
+ | 原文链接：http://book.ygcofo.asia/blog/7594794.sHtMl
+
+原标题：JSON XML 数据解析处理示例
+简介：golang kafka 批量消费性能优化，开启批量拉取消息，调整批量大小，提升 kafka 消息消费吞吐量。
+ | 原文链接：http://book.ygcofo.asia/blog/8505749.sHtMl
+
+原标题：golang 系统设计接口频率限制业务落地
+简介：golang 单例模式实现几种方式，Go 单例模式多种实现对比，sync.Once 等方式，实现全局唯一实例。
+ | 原文链接：http://book.ygcofo.asia/blog/9706929.sHtMl
+
+原标题：后端大文件分片上传接口开发
+简介：golang redis hash 结构业务实战，使用 Redis Hash 存储对象数据，适合对象字段频繁更新业务场景。
+ | 原文链接：http://book.ygcofo.asia/blog/4161417.sHtMl
+
+原标题：golang 系统设计缓存 key 淘汰雪崩防护思路
+简介：golang aes 对称加密解密示例，AES 对称加密解密实现，业务敏感数据加密存储传输。
+ | 原文链接：http://book.ygcofo.asia/blog/9361616.sHtMl
+
+原标题：golang 系统设计网关性能压测优化简单思路
+简介：golang go 程序敏感信息禁止打印日志，密钥密码禁止输出日志，防止敏感信息日志泄露。
+ | 原文链接：http://book.ygcofo.asia/blog/1939171.sHtMl
+
+原标题：golang grafana 面板变量模板制作
+简介：golang gorm select 指定查询字段，指定查询字段，避免查询全部字段，减少数据传输，提升查询性能。
+ | 原文链接：http://book.ygcofo.asia/blog/3040582.sHtMl
+
+原标题：golang prometheus counter gauge 使用
+简介：golang gif 图片帧处理操作，解析 gif 图片帧，压缩、拆分 gif 动图，处理动图业务。
+ | 原文链接：http://book.ygcofo.asia/blog/9300284.sHtMl
+
+四、架构设计｜Architecture
+原标题：golang 系统设计日志架构采集存储检索完整链路
+简介：golang etcd key 监听变更 watch 机制，watch 监听 etcd 键变化，配置变更实时感知，实现配置热更新。
+ | 原文链接：http://book.ygcofo.asia/blog/3295302.sHtMl
+
+原标题：Security：文件上传漏洞攻击面完整防护方案
+简介：golang go 网络编程 net 包基础，net 包 tcp udp socket 编程，监听接收连接，读写数据。
+ | 原文链接：http://book.ygcofo.asia/blog/3254564.sHtMl
+
+原标题：坑点：版本号语义化理解错误依赖版本错乱
+简介：golang go 项目依赖冲突解决完整思路，定位冲突包，replace、exclude、升级降级解决版本冲突。
+ | 原文链接：http://book.ygcofo.asia/blog/6856333.sHtMl
+
+原标题：golang gin 路由分组权限管控
+简介：限流组件计数器令牌桶模式实现，实现计数器、令牌桶两种限流算法，封装可复用限流组件。
+ | 原文链接：http://book.ygcofo.asia/blog/3799088.sHtMl
+
+原标题：架构笔记：冷热数据分离架构设计与迁移
+简介：golang 系统资源限制读取 cpu 内存，读取系统容器 cpu 内存限制，程序适配容器资源配额做业务调优。
+ | 原文链接：http://book.ygcofo.asia/blog/3676768.sHtMl
+
+原标题：限流组件计数器令牌桶模式实现
+简介：golang go 单二进制文件静态编译交叉编译，交叉编译不同操作系统架构二进制文件，实现一次编译多平台运行。
+ | 原文链接：http://book.ygcofo.asia/blog/9813817.sHtMl
+
+原标题：golang 系统设计敏感数据加密存储方案
+简介：golang nilnil interface 陷阱复现，interface 包含类型不为 nil 值为 nil，判 ==nil 返回 false 经典坑。
+ | 原文链接：http://book.ygcofo.asia/blog/9600715.sHtMl
+
+原标题：零基础理解HTTP常用请求头与状态码
+简介：golang 项目 makefile 脚本编写，编写 Makefile 脚本，封装编译、测试、构建命令，简化项目操作。
+ | 原文链接：http://book.ygcofo.asia/blog/2938036.sHtMl
+
+原标题：前后端会话登录状态持久化
+简介：golang embed 目录读取文件列表，embed 嵌入整个目录，读取目录下全部文件，做静态资源服务。
+ | 原文链接：http://book.ygcofo.asia/blog/4746250.sHtMl
+
+原标题：golang mysql 索引失效常见场景
+简介：限流组件计数器令牌桶模式实现，实现计数器、令牌桶两种限流算法，封装可复用限流组件。
+ | 原文链接：http://book.ygcofo.asia/blog/5262470.sHtMl
+
+原标题：Architecture：限流计数器架构时间窗口选型对比
+简介：golang 布隆过滤器实现去重，Go 实现布隆过滤器，海量数据去重，节省内存开销，提升判断效率。
+ | 原文链接：http://book.ygcofo.asia/blog/6950393.sHtMl
+
+原标题：golang 系统设计故障演练简单思路
+简介：pnpm 包管理工具实战避坑指南，使用 pnpm 管理项目依赖，梳理常见坑点，充分利用 pnpm 优势。
+ | 原文链接：http://book.ygcofo.asia/blog/8727069.sHtMl
+
+原标题：Issue：开源项目升级大版本后API不兼容踩坑
+简介：golang GC 频繁 STW 停顿优化，减少小对象分配，调整 GOGC，降低 GC 停顿对接口延迟影响。
+ | 原文链接：http://book.ygcofo.asia/blog/0362582.sHtMl
+
+原标题：CPU 亲和性配置负载均衡调度
+简介：上传接口跨域配置特殊适配，针对文件上传接口，适配复杂请求，修复上传场景下跨域失效问题。
+ | 原文链接：http://book.ygcofo.asia/blog/0878170.sHtMl
+
+原标题：nestjs 框架模块化项目搭建
+简介：golang websocket 服务端开发，Go 实现 WebSocket 服务端，处理连接、消息收发，实现长连接服务。
+ | 原文链接：http://book.ygcofo.asia/blog/6379573.sHtMl
+
+原标题：golang 系统设计 api 网关核心能力梳理
+简介：golang 参数校验业务接口处理，Go 接口入参参数校验，拦截非法入参，减少业务层参数判断代码。
+ | 原文链接：http://book.ygcofo.asia/blog/2049171.sHtMl
+
+原标题：golang 日志 zap 结构化日志实践
+简介：golang redis scan 遍历 key 避免阻塞，使用 scan 迭代遍历 redis 键，不用 keys 命令，防止阻塞 redis 服务。
+ | 原文链接：http://book.ygcofo.asia/blog/3164793.sHtMl
+
+原标题：设计思考：缓存分层架构设计与失效处理策略
+简介：Redis 分布式锁高并发安全实现，基于 Redis 实现分布式锁，处理锁过期、续期，保障集群并发安全。
+ | 原文链接：http://book.ygcofo.asia/blog/6828026.sHtMl
+
+?
